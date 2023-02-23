@@ -1,0 +1,108 @@
+body{
+    /* box-sizing: border-box; */
+    font-family: 'Quicksand', sans-serif;
+}
+
+.navbar{
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0 5% 0 5%;
+    display: flex;
+    flex-direction: row;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    height: 70px;
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    text-shadow: 2px 2px #F94A29;
+    font-size: 2em;
+    z-index: 1;
+}
+.function{
+    position: inherit;
+    right: 5%;
+    width: 15%;
+}
+
+.function button{
+    font-size: 0.8em;
+    padding: 2% 17%;
+    border: none;
+    border-radius: 5px;
+}
+
+.input-section{
+    position:relative;
+    padding-top: 80px;
+    width: 100%;
+    height: 60px;
+    
+    
+}
+
+.todo-input{
+    padding: 1% 3%;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 2em;
+    color: #2C3333;
+}
+
+.todo-list.unchecked{
+position: relative;
+margin-top: 2%;
+padding: 1% 4%;
+display: flex;
+flex-direction: column;
+color: #2C3333;
+border-top: 2px solid #979797;
+}
+
+.todo-list.checked{
+    position: relative;
+    padding: 1% 4%;
+    display: flex;
+    flex-direction: column;
+    }
+    
+.todo-item{
+    display: flex;
+    padding: 1% 0 1% ;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 1.6rem;
+    border-bottom: 1px solid #979797;
+}
+
+.todo-item input{
+    zoom: 1.8;
+}
+.left-side{
+    width: 70%;
+    display: flex;
+    justify-content:flex-start;
+}
+.right-side{
+    width: 10%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+.fa-solid{
+    font-size: 1em !important;
+    color: #979797;
+    /* padding: 0 2% ; */
+    width: 24px !important;
+    height: 10px;
+}
+
+.fa-solid:hover{
+    color: hsl(0, 2%, 32%);
+}
